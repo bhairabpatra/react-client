@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+# npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
