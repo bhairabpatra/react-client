@@ -1,8 +1,6 @@
 import './App.css';
 import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-
 import { Navabr } from './components/Navabr';
 import { Landing } from './components/Landing';
 import {Login} from './components/auth/Login';
