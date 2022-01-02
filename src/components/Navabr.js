@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react'
-
+import { Link } from 'react-router-dom'
 export const Navabr = () => {
     return (
         <Fragment>
             <nav className="navbar bg-dark">
                 <h1>
-                    <a href="index.html"><i class="fas fa-code"></i> DevConnector</a>
+                    <Link to="/"><i class="fas fa-code"></i> DevConnect - Bhairab</Link>
                 </h1>
                 <ul>
-                    <li><a href="profiles.html">Developers</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><Link to="/">Developers</Link></li>
+                    <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/register">register</Link></li>
                 </ul>
             </nav>
         </Fragment>
