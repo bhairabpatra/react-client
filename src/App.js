@@ -1,14 +1,14 @@
- 
 import './App.css';
+import React , {Fragment} from 'react'
+import { Navabr } from './components/Navabr';
+import { Landing } from './components/Landing';
 
-function App() {
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-      </header>
-    </div>
-  );
+    <Fragment>
+      <Navabr />
+      <Landing/>
+    </Fragment>
+  )
 }
-
-export default App;
